@@ -12,18 +12,18 @@ const AnatomySection = () => {
         <img
           src="./src/assets/human.png" 
           alt="human body"
-          className="mx-auto max-w-[250px] md:max-w-[300px] h-auto  "
+          className=" max-w-[250px] md:max-w-[300px] h-auto px-3 "
           onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/250x400/cccccc/333333?text=Human+Body"; }} // Fallback image
         />
 
-        <div className="absolute top-[14%] md:top-[26%] left-[50%] md:left-[72%] transform -translate-x-1/2 flex items-center bg-blue-600 text-white text-xs md:text-sm px-3 py-2 rounded-full shadow-md whitespace-nowrap">
+        <div className="absolute top-[14%] md:top-[26%] left-[50%] md:left-[60%] transform -translate-x-1/2 flex items-center bg-blue-500 text-white text-xs md:text-sm px-3 py-2 rounded-full shadow-md whitespace-nowrap">
           <FaHeart className="mr-2 text-sm md:text-base" /> 
           Healthly Heart
         </div>
 
-        <div className="absolute bottom-[15%] md:bottom-[20%] left-[30%] md:left-[25%] flex items-center bg-teal-500 text-white text-xs md:text-sm px-3 py-2 rounded-full shadow-md whitespace-nowrap">
+        <div className="absolute bottom-[1%] md:bottom-[20%] left-[30%] md:left-[15%] flex items-center bg-teal-500 text-black text-xs md:text-sm px-3 py-2 rounded-full shadow-md whitespace-nowrap">
           <FaWalking className="mr-2 text-sm md:text-base" /> 
-          Healthy Leg
+          Healthly Leg
         </div>
 
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-2/3 h-1 bg-gray-300 rounded-full">

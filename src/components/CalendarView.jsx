@@ -112,6 +112,8 @@ const CalendarView = () => {
           );
         })}
       </div>
+
+      
        <div>
       <h2 className="text-lg font-semibold mb-2 py-3.5">The Upcoming Schedule</h2>
       <div className="mb-4">
