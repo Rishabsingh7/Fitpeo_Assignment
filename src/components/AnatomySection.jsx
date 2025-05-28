@@ -10,7 +10,7 @@ const AnatomySection = () => {
         </div>
 
         <img
-          src=".src/assets/human.png" 
+          src=".assets/human.png" 
           alt="human body"
           className=" max-w-[250px] md:max-w-[300px] h-auto px-3 "
           onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/250x400/cccccc/333333?text=human.body"; }} // Fallback image
