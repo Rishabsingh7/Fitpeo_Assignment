@@ -13,7 +13,7 @@ const AnatomySection = () => {
           src=".src/assets/human.png" 
           alt="human body"
           className=" max-w-[250px] md:max-w-[300px] h-auto px-3 "
-          onError={(e) => { e.target.onerror = null; e.target.src=".assets/human.png"; }} // Fallback image
+          onError={(e) => { e.target.onerror = null; e.target.src=".src/assets/human.png"; }} // Fallback image
         />
 
         <div className="absolute top-[14%] md:top-[26%] left-[50%] md:left-[60%] transform -translate-x-1/2 flex items-center bg-blue-500 text-white text-xs md:text-sm px-3 py-2 rounded-full shadow-md whitespace-nowrap">
